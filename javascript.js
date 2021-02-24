@@ -17,7 +17,7 @@ $(document).ready(function () {
     //get current number of hours.
     let timeNow = moment().hour();
 
-    //loop through each time block and 
+    //loop through each time block and prep for comparison to actual timegit
     $(".time-block").each(function () {
       let blockTime = parseInt($(this).attr("id").split("-")[1]);
 
